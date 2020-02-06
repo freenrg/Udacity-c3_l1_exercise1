@@ -1,6 +1,5 @@
 package com.udacity.course3.lesson1.exercise1.exercise1;
 
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -11,7 +10,10 @@ public class Application {
         // STEP 1: Create the JDBC URL for JDND-C3 database
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+
+/**            Class.forName("com.mysql.jdbc.Driver"); */
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
         }
         catch (ClassNotFoundException e) {
             // TODO Auto-generated catch block
@@ -23,7 +25,8 @@ public class Application {
         try {
             try (Connection conn =
                          DriverManager.getConnection("jdbc:mysql://localhost:3303/jdnd_c3?user=root&password=root")) {
-                System.out.println("Connected to "+conn.getMetaData().getDatabaseProductName());
+                System.out.println("Connected to database");
+                // System.out.println("Connected to "+conn.getMetaData().getDatabaseProductName());
             }
 
         } catch (SQLException ex) {
