@@ -24,7 +24,7 @@ public class Application {
 
         try {
             try (Connection conn =
-                         DriverManager.getConnection("jdbc:mysql://localhost:3303/jdnd_c3?user=root&password=root")) {
+                         DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdnd_c3?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&user=root&password=root")) {
                 System.out.println("Connected to database");
                 // System.out.println("Connected to "+conn.getMetaData().getDatabaseProductName());
             }
