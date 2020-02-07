@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="7bd81e8c-e7fe-4bda-81bd-dc79b9d0ea5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/course3/lesson1/exercise1/exercise1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/course3/lesson1/exercise1/exercise1/Application.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="7bd81e8c-e7fe-4bda-81bd-dc79b9d0ea5f" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +36,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/udacity/course3/lesson1/exercise1/exercise1/Application.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="286">
               <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+=======
+            <state>
+              <caret lean-forward="true" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -175,7 +184,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -215,8 +223,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/udacity/course3/lesson1/exercise1/exercise1/Application.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="286">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+=======
+        <state>
+          <caret lean-forward="true" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
